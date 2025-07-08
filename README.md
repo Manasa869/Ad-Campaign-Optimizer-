@@ -1,4 +1,4 @@
-# Ad-Campaign-Optimizer-# Ad Campaign Optimizer 🎯
+# Ad-Campaign-Optimizer 🎯
 
 A frontend-only web application to simulate digital ad campaign performance using mock data. Built using **HTML, CSS, JavaScript**, and **Chart.js**,
 this project helps visualize how ad budget and platform choice affect clicks and impressions.
