@@ -25,7 +25,7 @@ this project helps visualize how ad budget and platform choice affect clicks and
 - LocalStorage API
 
 ## 📊 Sample Output
-https://github.com/Manasa869/Ad-Campaign-Optimizer-/blob/main/Screenshot%2001.png
+Screenshot 01.png
 
 
 ## 🚀 How to Run
