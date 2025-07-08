@@ -24,14 +24,6 @@ this project helps visualize how ad budget and platform choice affect clicks and
 - Chart.js
 - LocalStorage API
 
-## 📊 Sample Output
-Screenshot 01.png
-
-
-## 🚀 How to Run
-1. Clone this repo
-2. Open `index.html` in your browser
-
 
 ## 🧑‍💻 Created by
 Manasa Chinthalapally  
