@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ad Campaign Optimizer</title>
+  <link rel="stylesheet" href="AdOptimizer.css">
+  <script src="AdOptimizer.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Ad Campaign Optimizer</h1>
+    <form id="campaignForm">
+      <label>Budget (₹):</label>
+      <input type="number" id="budget" required>
+      
+      <label>Platform:</label>
+      <select id="platform">
+        <option value="Google">Google</option>
+        <option value="Facebook">Facebook</option>
+      </select>
+
+      <label>Target Audience:</label>
+      <input type="text" id="audience" placeholder="e.g., Age 18-35 India" required>
+
+      <button type="submit">Optimize</button>
+    </form>
+
+    <div id="results" class="hidden">
+      <h2>Campaign Results</h2>
+      <p><strong>Estimated Clicks:</strong> <span id="clicks"></span></p>
+      <p><strong>Estimated Impressions:</strong> <span id="impressions"></span></p>
+      <canvas id="performanceChart"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
