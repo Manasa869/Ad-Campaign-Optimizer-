@@ -25,7 +25,6 @@ this project helps visualize how ad budget and platform choice affect clicks and
 - LocalStorage API
 
 ## 📊 Sample Output
-![screenshot](https://via.placeholder.com/600x300.png?text=Performance+Chart+Preview)
 
 ## 🚀 How to Run
 1. Clone this repo
