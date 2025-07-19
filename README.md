@@ -49,8 +49,6 @@ This tool helps users visualize how ad budget and platform choices impact clicks
 ## 🧑‍💻 Created by
 **Manasa Chinthalapally**
 
-> "Built to simulate and store ad campaign performance like a mini DeltaX!" 💼
-
 ---
 
 ## 🚀 Setup Instructions
