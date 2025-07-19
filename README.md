@@ -38,7 +38,7 @@ This tool helps users visualize how ad budget and platform choices impact clicks
 ---
 
 ## 🌐 Live Demo
-_((https://adoptimizer-tool.netlify.app/))_
+_https://adoptimizer-tool.netlify.app/_
 
 ---
 
