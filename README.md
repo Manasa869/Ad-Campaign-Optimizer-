@@ -1,31 +1,90 @@
 # Ad-Campaign-Optimizer 🎯
 
-A frontend-only web application to simulate digital ad campaign performance using mock data. Built using **HTML, CSS, JavaScript**, and **Chart.js**,
-this project helps visualize how ad budget and platform choice affect clicks and impressions.
+A full-stack web application that simulates and stores digital ad campaign performance across platforms like Google and Facebook. Built with **HTML, CSS, JavaScript**, **Node.js**, **Express.js**, **MongoDB**, and **Chart.js**.
 
--A simulation tool for digital marketers to plan and evaluate ad campaign performance across platforms like Google and Facebook.
+## 📊 Overview
+This tool helps users visualize how ad budget and platform choices impact clicks and impressions. The frontend simulates performance, while the backend stores and retrieves campaign data using a RESTful API.
 
-1.Developed a responsive web app that simulates ad performance using mock data, mimicking DeltaX’s data-driven ad platform.
-2.Built interactive UI forms to input campaign details: budget, platform, and target audience.
-3.Implemented logic to calculate estimated impressions, clicks, and ROI based on platform and budget.
-4.Used Chart.js to visualize campaign metrics such as cost distribution, reach, and performance trends.
-5.Stored campaign data in browser LocalStorage to simulate backend functionality.
+---
+
 
 ## 🔧 Features
-- Budget-based performance simulation
-- Platform-specific logic (Google vs Facebook)
-- Real-time performance charts
-- LocalStorage to mimic backend data
-- Responsive, clean UI
+- 🔢 Budget-based performance simulation
+- 💡 Platform-specific logic (Google vs Facebook)
+- 📈 Real-time chart visualization using Chart.js
+- 🧠 Backend API built with Express.js
+- 🗂️ MongoDB integration to store campaign data
+- 💾 LocalStorage fallback for offline use
+- ✅ RESTful endpoints for fetching/saving data
+- 📱 Responsive UI
 
-## 💡 Tech Stack
-- HTML5, CSS3
-- JavaScript
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML5, CSS3, JavaScript
 - Chart.js
-- LocalStorage API
+- LocalStorage API (for offline cache)
 
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- dotenv (for environment variables)
+
+---
+
+---
+
+## 🧪 API Endpoints
+
+| Method | Endpoint                | Description               |
+|--------|-------------------------|---------------------------|
+| GET    | `/api/campaigns`        | Fetch all campaigns       |
+| POST   | `/api/campaigns`        | Create new campaign entry |
+
+---
 
 ## 🧑‍💻 Created by
-Manasa Chinthalapally  
+**Manasa Chinthalapally**
 
+> "Built to simulate and store ad campaign performance like a mini DeltaX!" 💼
+
+---
+
+## 🚀 Setup Instructions
+
+### 🔃 Clone the Repo
+```bash
+git clone https://github.com/Manasa869/Ad-Campaign-Optimizer.git
+cd Ad-Campaign-Optimizer
+
+## 🚀 Setup Instructions
+
+### ▶️ Start Backend Server
+
+```bash
+cd backend
+npm install
+node server.js
+
+Make sure MongoDB is running and you have a .env file in the /backend folder with the following:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+###💻 Run Frontend
+Use the Live Server extension in Visual Studio Code to open:
+
+frontend/AdOptimizer.html
+
+###📬 Contributions & Feedback
+Open to improvements! Feel free to:
+
+⭐ Star the repo
+
+🐛 Raise an issue
+
+📥 Submit a pull request
 
