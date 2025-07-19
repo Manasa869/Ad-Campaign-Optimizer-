@@ -37,12 +37,8 @@ This tool helps users visualize how ad budget and platform choices impact clicks
 
 ---
 
-## 🧪 API Endpoints
-
-| Method | Endpoint                | Description               |
-|--------|-------------------------|---------------------------|
-| GET    | `/api/campaigns`        | Fetch all campaigns       |
-| POST   | `/api/campaigns`        | Create new campaign entry |
+## 🌐 Live Demo
+_((https://adoptimizer-tool.netlify.app/))_
 
 ---
 
